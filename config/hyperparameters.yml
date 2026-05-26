@@ -1,0 +1,17 @@
+flappybird1:
+  env_id: FlappyBird-v0
+  replay_memory_size: 50000      
+  mini_batch_size: 64            
+  epsilon_init: 1
+  epsilon_decay: 0.9999         
+  epsilon_min: 0.01
+  network_sync_rate: 1000        
+  learning_rate_a: 0.0005        
+  discount_factor_g: 0.99
+  stop_on_reward: 1000
+  fc1_nodes: 256                 
+  fc2_nodes: 256                 
+  num_episodes: 100000
+  env_make_params:
+    use_lidar: False
+# you can also add your configurations 
