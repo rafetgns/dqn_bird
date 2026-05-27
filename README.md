@@ -6,7 +6,7 @@ PyTorch implementation of a Deep Q-Network (DQN) that learns to play Flappy Bird
 
 ### Visualizing the training process
 ---
-To see how the agent is doing, its weights are saved at the beginning, in the middle of training and at the end of the training. Those can be found respectively in `runs/flappybird1_init.pt`, `runs/flappybird1_mid.pt`, `runs/flappybird1.pt`
+To see how the agent is doing, its weights are saved at the beginning, in the middle of training and at the end of the training. Those can be found respectively in `runs/flappybird1_init.pt`, `runs/flappybird1_mid.pt`, `runs/flappybird1.pt`. Then we test the 3 models and record the gameplays, those can also be found in `assets/`.
 
 
 
