@@ -81,8 +81,9 @@ num_episodes:       100000
 **Setup the environment**
 ```bash
 git clone https://github.com/rafetgns/dqn_pytorch
-python -m venv venv
-source venv/bin/activate 
+cd dqn_pytorch
+python3.11 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
